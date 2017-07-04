@@ -1,4 +1,4 @@
-FROM microsoft/2.0.0-preview2-sdk
+FROM microsoft/dotnet:2.0.0-preview2-sdk
 
 RUN rm /etc/apt/sources.list.d/llvm.list -f
 
